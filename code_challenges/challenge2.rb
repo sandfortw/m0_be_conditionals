@@ -16,7 +16,7 @@
 good_driving_record = true
 age = 26
 
-if good_driving_record == false || age <= 25
+if good_driving_record == false && age <= 25
     puts "Someone else must sign."
 
 elsif good_driving_record == true && age > 25
